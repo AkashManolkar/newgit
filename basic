@@ -1,0 +1,78 @@
+************* Git *************
+    version control system is a tools that helps to track changes in code 
+    git is a version control system.it is:
+        popular 
+        free and open source
+        fast & scalable
+
+
+************* GitHub ***************
+    Website that allows developers to store and manage their code using Git
+
+        https://github.com
+
+
+*********** Configuring Git **********
+    <git confing --global user.name ><"your name">
+    <git confing --global user.email ><"your email id">
+    <git confing --list>
+
+*********** Clone & Status *************
+    Clone : <git clone><some link>          //add link from git in vs code
+    status : display the stste of the code
+    <git status>
+
+                ********untracked*********
+                    new file that git doesn't yet track
+
+                ********modified*********
+                    changed
+
+                *********staged ***********
+                    file is ready to be committed
+
+                *******unmodified********
+                    unchanged
+
+    is -a                       //showing the hidden files
+
+
+************* Add & commit ************
+    add : adds new or changed files in your working directory to the git staging area.
+        <git add ><file-name>
+
+    commit : it is the record of change
+        <git commit-m><"some message">
+
+************* Push command ***********
+    push : upload local repo content to remote repo
+        <git push origin main>
+            git push (command)
+            origin : (defoult repository)(this you can change name)
+            main : try to pushing in branch
+
+
+************* init ************
+    init : used to create a new git repo
+        <git init>
+        <git remote add origin> <link>
+        <git remote -v >  (to verify remote)
+        <git branch>   (to chake branch)
+        <git push origin main>
+
+
+********* Branch Command ************
+    <git branch>   (to check  branches)
+    <git branch-m main>     (to rename branch)
+    <git checkout><branch name>     (to navigate)
+    <git checkout-b><new bramch name>       (to create new branch)
+    <git branch-d><branch name>     (to delete branch)
+
+
+*********** Merging Code ************
+    way 1
+    <git diff><branch name>     (to compare commits,branches,files and more)
+    <git merge><branch name>       (to merge 2 branches)
+
+    way 2
+    <create a PR>
